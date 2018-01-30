@@ -1,0 +1,25 @@
+*  {
+    outline: 1px solid blue;
+}
+
+
+header {
+    padding: 4rem;
+}
+
+body {
+    text-align: center;    
+}
+
+.selection {
+ 
+
+}
+
+.outcome {
+    padding: 4rem;
+}
+
+.spacer {
+    padding: 4rem;
+}

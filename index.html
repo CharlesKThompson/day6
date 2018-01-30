@@ -1,14 +1,63 @@
-var choices = ["one", "two", "three"]
-var choice = ""
+<!DOCTYPE html>
+<html lang="en">
 
-function getChoice(){
-    var index = Math.random (0,2)
-    choice = choices[index]
-    console.log(choice)
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
 
-getChoice()
+<body>
+    <header>
+        <h2>Welcome to Rock Paper Scissors!</h2>
+    </header>
+    <div class="spacer col-sm-12">
 
+    </div>
 
-globals.toggleName = toggleName
-globals.increment = increment
+    <div class="selection">
+        <div class="container-fluid">
+            <div class="row justify-content-around">
+                <div class="column-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Rock</h5>
+                            <p class="card-text">Solid choice are the only choices!</p>
+                            <button onclick="play('rock')" class="btn btn-premary">Rock</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Paper</h5>
+                            <p class="card-text">Knowledge is true power!</p>
+                            <button onclick="play('paper')" class= "btn btn-premary">Paper</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="column-sm-4">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Scissors</h5>
+                            <p class="card-text">Blades or go home!</p>
+                            <button onclick="play('scissor')" class="btn btn-premary">Scissors</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <span>And the result is! :</span><span id="outcome">...</span>
+    </div>
+    <script>assets / style.js
+    </script>
+</body>
+
+</html>
