@@ -5,19 +5,25 @@
 
 header {
     padding: 4rem;
+    background: rgb(207, 62, 62);
 }
 
 body {
-    text-align: center;    
+    text-align: center;
+    background: grey;    
 }
 
 .selection {
- 
+ background: red;
+ color: green;
+
 
 }
 
 .outcome {
     padding: 4rem;
+    background: whitesmoke;
+    color: chartreuse;
 }
 
 .spacer {
